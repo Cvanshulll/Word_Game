@@ -39,10 +39,9 @@ Yes, the Word Game offers a flexible and customizable rule system. Players can d
 
 ## Screenshots
 
-![ss1](https://github.com/Cvanshulll/Word_Game/assets/75979288/cc4aed72-66b4-4934-a5fc-d26b687ea277)
-<img src = "assets/msg1238912635-111577.jpg">
-![ss2](https://github.com/Cvanshulll/Word_Game/assets/75979288/276144ae-72f7-40de-92fc-2bf712ad7d4a)
-![screenshot3](https://github.com/Cvanshulll/Word_Game/assets/75979288/0db14cc1-d3a2-4204-899c-73fa67734abf)
+<img src = "assets/ss1.jpg">
+<img src = "assets/ss2.jpg">
+<img src = "assets/ss3.jpg">
 
 
 
