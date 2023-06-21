@@ -34,7 +34,7 @@ Yes, the Word Game offers a flexible and customizable rule system. Players can d
 <!-- Currently, the Word Game does not have a built-in word validation feature, time limit for each turn, or a save/load game progress functionality. However, these are potential enhancements that can be implemented in the future. Word validation can be added by checking entered words against a dictionary. A time limit feature can add excitement by requiring players to complete their turn within a specified timeframe. Implementing a save/load game progress feature would allow players to save their progress and resume the game later. Contributions to add these features are welcomed and can enhance the overall gameplay experience. -->
 ## Demo
 
-[Link to demo](https://li)
+[Link to demo](https://cvanshulll.github.io/Word_Game/)
 
 
 ## Screenshots
