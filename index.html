@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Game</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css"
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div id="nav">
+      <details id="title">
+        <summary>
+          <h1>Word Game - Unleash Your Vocabulary!</h1>
+        </summary>
+        <div class="description">
+          <p>
+            <span>Word Game:</span> Players take turns adding one letter at a
+            time to form words.
+          </p>
+          <p>
+            <span>Customizable Rules:</span> Players can define their own unique
+            set of rules to enhance the gameplay experience.
+          </p>
+          <p>
+            <span>Strategic and Engaging:</span> The objective is to create
+            meaningful words while planning moves to maximize points and
+            outsmart opponents.
+          </p>
+        </div>
+      </details>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <section id="main-section">
+      <div class="main-partitions table-section">
+        <button id="generateGridButton">Generate</button>
+        <div id="gridContainer" style="margin-top: 20px;"></div>
+
+        <div id="wordContainer" style="margin-top: 20px;">Word Formed</div>
+
+        <button id="undoColorButton">Undo</button>
+        <button id="addWordButton">Add Word</button>
+      </div>
+      <div class="main-partitions user-section">
+        <div className="add-player-form">
+          <input
+            type="text"
+            placeholder="Player Name"
+            id="playerName"
+            value=""
+          />
+          <button id="playerAddButton">Submit</button>
+
+          <div id="scoreboard">
+            <table id="scoreTable">
+              <tr>
+                <th style="width: 60%; padding: 1px;">Players</th>
+                <th>Score</th>
+              </tr>
+              <tr></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- More-Details -->
+
+    <section>
+      <details>
+        <summary style="color: blue;">More Details</summary>
+        <p class="more-details">
+          Word Game is an engaging and interactive game that puts your
+          vocabulary skills to the test. It's a game that allows players to
+          create words by entering one letter at a time in their turns. The game
+          offers a flexible and customizable rule system, allowing players to
+          define their own unique set of rules to make the gameplay even more
+          exciting and challenging. In Word Game, each player takes turns adding
+          a single letter to collectively form a word. The objective is to
+          create meaningful words while strategically planning your moves to
+          maximize points and outsmart your opponents. With endless
+          possibilities, the game can be adapted to suit players of all ages and
+          skill levels.
+          <footer id="footer">
+            <p>Made with &hearts; <a href="https://github.com/Cvanshulll" target="__blank">vanshul</a></p>
+          </footer>
+        </p>
+      </details>
+    </section>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

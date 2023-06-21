@@ -1,0 +1,107 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  background-color: #e4d0d0;
+}
+
+/* Navbar */
+#nav {
+  text-align: center;
+}
+#title {
+  margin: 0px;
+  background-color: #d5b4b4;
+  padding: 10px;
+}
+.description {
+  text-align: center;
+  margin: 10px 100px;
+}
+span {
+  color: red;
+}
+
+/* Partitions */
+#main-section {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-partitions {
+  padding: 10px;
+}
+
+/* Input-Section */
+td > input {
+  width: 20px;
+  height: 20px;
+  border: 0px solid white;
+}
+input {
+  text-align: center;
+  font-size: 20px;
+}
+#wordContainer {
+  background-color: #f5ebeb;
+  margin: 10px;
+}
+button {
+  font-size: 15px;
+  border: 1px solid #f5ebeb;
+  background-color: #867070;
+}
+button:hover {
+  background-color: #f5ebeb;
+  border: 1px solid #867070;
+}
+.removeButton {
+  border: 0px;
+  background-color: red;
+}
+
+th,
+td {
+  border: 1px solid;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+table {
+  margin: 20px auto; /* Set left and right margins to "auto" */
+  text-align: center; /* Center the table content */
+  border-collapse: collapse;
+}
+button {
+  cursor: pointer;
+}
+input {
+  padding: 2px;
+}
+
+#playerAddButton {
+  padding: 7px 10px;
+  margin: 20px 0px;
+}
+#scoreTable {
+  margin-top: 0px;
+}
+
+/* End-section */
+.more-details {
+  border-top: 1px solid #867070;
+  margin: 20px;
+  padding: 40px;
+  padding-top: 20px;
+}
+
+@media (max-width: 800px) {
+  #main-section {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+}
