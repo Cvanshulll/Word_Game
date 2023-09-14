@@ -96,6 +96,12 @@ input {
   padding: 40px;
   padding-top: 20px;
 }
+button{
+  padding: 10px;
+}
+#scoreTable  button{
+  padding: 0;
+}
 
 @media only screen and (max-width: 768px) {
   #main-section {

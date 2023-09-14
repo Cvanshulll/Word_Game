@@ -83,11 +83,14 @@ playerAddButton.addEventListener("click", () => {
     const td1 = document.createElement("td");
     td1.textContent = player;
 
-    // Create the second <td> element
     const td2 = document.createElement("td");
     td2.textContent = "0";
     const incrementButton = document.createElement("button");
     incrementButton.textContent = "+";
+    incrementButton.style.padding = "5px 10px"; // Add padding to the button
+    incrementButton.style.border = "none"; // Remove button border if needed
+    incrementButton.style.background = "#0070c0"; // Button background color
+    incrementButton.style.color = "#fff"; // Button text color
     incrementButton.addEventListener("click", function () {
       // Increment the value
       td2.textContent = parseInt(td2.textContent, 10) + 1;
@@ -95,6 +98,10 @@ playerAddButton.addEventListener("click", () => {
 
     const decrementButton = document.createElement("button");
     decrementButton.textContent = "-";
+    decrementButton.style.padding = "5px 10px"; // Add padding to the button
+    decrementButton.style.border = "none"; // Remove button border if needed
+    decrementButton.style.background = "#ff0000"; // Button background color
+    decrementButton.style.color = "#fff"; // Button text color
     decrementButton.addEventListener("click", function () {
       // Decrement the value
       const value = parseInt(td2.textContent, 10);
@@ -102,6 +109,7 @@ playerAddButton.addEventListener("click", () => {
         td2.textContent = value - 1;
       }
     });
+
 
     const td3 = document.createElement("button");
     td3.textContent = "X";
