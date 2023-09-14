@@ -111,8 +111,13 @@ playerAddButton.addEventListener("click", () => {
     });
 
 
+
     const td3 = document.createElement("button");
-    td3.textContent = "X";
+    td3.innerHTML="x";
+    td3.style.padding="2px";
+    td3.style.marginLeft="2px"
+    // td3.style.border = "1px solid black"; 
+    td3.style.backgroundColor="white";
     td3.classList.add("removeButton");
     // Add click event listener to the button
     td3.addEventListener("click", function () {
